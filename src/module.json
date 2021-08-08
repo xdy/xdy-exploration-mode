@@ -1,0 +1,37 @@
+{
+  "name": "xdy-module-template",
+  "title": "xdy-module-template",
+  "description": "",
+  "version": "0.0.0",
+  "author": "",
+  "authors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "minimumCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.8",
+  "scripts": [],
+  "esmodules": ["module/xdy-module-template.js"],
+  "styles": ["styles/xdy-module-template.css"],
+  "packs": [],
+  "dependencies": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": false,
+  "url": "",
+  "manifest": "",
+  "download": "https://host/path/to/0.0.0.zip",
+  "license": "",
+  "readme": "",
+  "bugs": "",
+  "changelog": "",
+  "system": [],
+  "library": false
+}
