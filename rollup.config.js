@@ -1,4 +1,3 @@
-const typescript = require('rollup-plugin-typescript2');
 const { nodeResolve } = require('@rollup/plugin-node-resolve');
 const esbuild = require('rollup-plugin-esbuild');
 
@@ -11,7 +10,6 @@ module.exports = {
   },
   plugins: [
     nodeResolve(),
-    typescript({}),
     esbuild({
       include: /\.[jt]sx?$/,
       sourceMap: true,
