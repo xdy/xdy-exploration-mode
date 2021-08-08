@@ -32,9 +32,10 @@ If applicable, add screenshots to help explain your problem.
 
 - OS and browser: [e.g. 'Windows 10' or 'Ubuntu 20.04']
 - How you run Foundry [e.g. 'Foundry client' or 'Chrome']
-- Foundry version [e.g. 0.7.9]
-- System version [e.g. 0.6.82]
-- Installed modules [e.g. None]
+- Foundry version [e.g. 0.8.8]
+- System and version [e.g. Twodsix, 0.8.10]
+- Module version [e.g. 0.0.1]
+- Other installed modules [e.g. None]
 
 **Additional context**
 Add any other context about the problem here.
