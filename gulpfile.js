@@ -5,7 +5,6 @@ const fs = require('fs-extra');
 const gulp = require('gulp');
 const path = require('path');
 const rollupConfig = require('./rollup.config');
-const semver = require('semver');
 const sass = require('gulp-dart-sass');
 
 /********************/
@@ -19,7 +18,6 @@ const stylesDirectory = `${sourceDirectory}/styles`;
 const stylesExtension = 'scss';
 const sourceFileExtension = 'ts';
 const staticFiles = ['assets', 'fonts', 'lang', 'packs', 'templates', 'module.json'];
-const getDownloadURL = (version) => `https://host/path/to/${version}.zip`;
 
 /********************/
 /*      BUILD       */
@@ -137,89 +135,9 @@ async function linkUserData() {
   }
 }
 
-/********************/
-/*    VERSIONING    */
-
-/********************/
-
-/**
- * Get the contents of the manifest file as object.
- */
-function getManifest() {
-  const manifestPath = `${sourceDirectory}/module.json`;
-
-  if (fs.existsSync(manifestPath)) {
-    return {
-      file: fs.readJSONSync(manifestPath),
-      name: 'module.json',
-    };
-  }
-}
-
-/**
- * Get the target version based on on the current version and the argument passed as release.
- */
-function getTargetVersion(currentVersion, release) {
-  if (['major', 'premajor', 'minor', 'preminor', 'patch', 'prepatch', 'prerelease'].includes(release)) {
-    return semver.inc(currentVersion, release);
-  } else {
-    return semver.valid(release);
-  }
-}
-
-/**
- * Update version and download URL.
- */
-function bumpVersion(cb) {
-  const packageJson = fs.readJSONSync('package.json');
-  const packageLockJson = fs.existsSync('package-lock.json') ? fs.readJSONSync('package-lock.json') : undefined;
-  const manifest = getManifest();
-
-  if (!manifest) cb(Error(chalk.red('Manifest JSON not found')));
-
-  try {
-    const release = argv.release || argv.r;
-
-    const currentVersion = packageJson.version;
-
-    if (!release) {
-      return cb(Error('Missing release type'));
-    }
-
-    const targetVersion = getTargetVersion(currentVersion, release);
-
-    if (!targetVersion) {
-      return cb(new Error(chalk.red('Error: Incorrect version arguments')));
-    }
-
-    if (targetVersion === currentVersion) {
-      return cb(new Error(chalk.red('Error: Target version is identical to current version')));
-    }
-
-    console.log(`Updating version number to '${targetVersion}'`);
-
-    packageJson.version = targetVersion;
-    fs.writeJSONSync('package.json', packageJson, { spaces: 2 });
-
-    if (packageLockJson) {
-      packageLockJson.version = targetVersion;
-      fs.writeJSONSync('package-lock.json', packageLockJson, { spaces: 2 });
-    }
-
-    manifest.file.version = targetVersion;
-    manifest.file.download = getDownloadURL(targetVersion);
-    fs.writeJSONSync(`${sourceDirectory}/${manifest.name}`, manifest.file, { spaces: 2 });
-
-    return cb();
-  } catch (err) {
-    cb(err);
-  }
-}
-
 const execBuild = gulp.parallel(buildCode, buildStyles, copyFiles);
 
 exports.build = gulp.series(clean, execBuild);
 exports.watch = buildWatch;
 exports.clean = clean;
 exports.link = linkUserData;
-exports.bumpVersion = bumpVersion;
