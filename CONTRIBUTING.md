@@ -49,11 +49,11 @@ Or, if you prefer to do it as a separate module, make sure to mention it on the 
       ```
 1. Symlink dist directory to your Foundry data directory. 1. Mac/unix example:
     ```
-    ln -s /Users/xdy/Projects/FoundryVTT/xdy-module-template/dist "/Users/xdy/Library/Application Support/FoundryVTT/Data/xdy-module-template"
+    ln -s /Users/xdy/Projects/FoundryVTT/xdy-party-group/dist "/Users/xdy/Library/Application Support/FoundryVTT/Data/xdy-party-group"
     ```
 1. Windows example (add /h to mklink to get a hard link rather than a soft link):
     ```
-    mklink /d C:\Users\jk\AppData\Local\FoundryVTT\Data\modules\xdy-module-template C:\Users\jk\foundryvtt\xdy-module-template\dist
+    mklink /d C:\Users\jk\AppData\Local\FoundryVTT\Data\modules\xdy-party-group C:\Users\jk\foundryvtt\xdy-party-group\dist
     ```
 1. Do the following each time you have updated your fork and want to test your code:
 1. Builds the prerequisites
