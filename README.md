@@ -1,18 +1,18 @@
-# xdy-module-template
+# xdy-party-group
 
-**TODO: Once you've used this template, replace *all* instances of xdy-module-template with the actual module name (e.g.
+**TODO: Once you've used this template, replace *all* instances of xdy-party-group with the actual module name (e.g.
 xdy-party-group), including in filenames. Then remove this line.**
 
-<img title="Minimum foundry version" src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/xdy/xdy-module-template/main/src/module.json&label=Minimum%20Foundry%20version&query=minimumCoreVersion&style=flat-square&color=important"> <img title="Maximum foundry version" src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/xdy/xdy-module-template/main/src/module.json&label=Maximum%20Foundry%20version&query=compatibleCoreVersion&style=flat-square&color=important"> <img title="xdy-module-template version" src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/xdy/xdy-module-template/main/src/module.json&label=xdy-module-template%20version&query=version&style=flat-square&color=success">
-![GitHub release](https://img.shields.io/github/release-date/xdy/xdy-module-template) [![GitHub commits](https://img.shields.io/github/commits-since/xdy/xdy-module-template/latest)](https://github.com/xdy/xdy-module-template/commits/) ![the latest version zip](https://img.shields.io/github/downloads/xdy/xdy-module-template/latest/xdy-module-template.zip) ![Forge installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fxdy-module-template) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Total alerts](https://img.shields.io/lgtm/alerts/g/xdy/xdy-module-template.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/xdy/xdy-module-template/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/xdy/xdy-module-template.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/xdy/xdy-module-template/context:javascript)
+<img title="Minimum foundry version" src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/xdy/xdy-party-group/main/src/module.json&label=Minimum%20Foundry%20version&query=minimumCoreVersion&style=flat-square&color=important"> <img title="Maximum foundry version" src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/xdy/xdy-party-group/main/src/module.json&label=Maximum%20Foundry%20version&query=compatibleCoreVersion&style=flat-square&color=important"> <img title="xdy-party-group version" src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/xdy/xdy-party-group/main/src/module.json&label=xdy-party-group%20version&query=version&style=flat-square&color=success">
+![GitHub release](https://img.shields.io/github/release-date/xdy/xdy-party-group) [![GitHub commits](https://img.shields.io/github/commits-since/xdy/xdy-party-group/latest)](https://github.com/xdy/xdy-party-group/commits/) ![the latest version zip](https://img.shields.io/github/downloads/xdy/xdy-party-group/latest/xdy-party-group.zip) ![Forge installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2Fxdy-party-group) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Total alerts](https://img.shields.io/lgtm/alerts/g/xdy/xdy-party-group.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/xdy/xdy-party-group/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/xdy/xdy-party-group.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/xdy/xdy-party-group/context:javascript)
 
 Add your description here.
 
 ## Installation
 
-Install by either searching for xdy-module-template in [FoundryVTT's](https://foundryvtt.com/) Module tab and clicking
+Install by either searching for xdy-party-group in [FoundryVTT's](https://foundryvtt.com/) Module tab and clicking
 Install or by clicking the 'Install Module' button in that tab and entering the following as the Manifest
-URL: https://github.com/xdy/xdy-module-template/releases/latest/download/module.json
+URL: https://github.com/xdy/xdy-party-group/releases/latest/download/module.json
 
 ### Patch Notes:
 

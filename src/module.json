@@ -1,6 +1,6 @@
 {
-  "name": "xdy-module-template",
-  "title": "xdy-module-template",
+  "name": "xdy-party-group",
+  "title": "xdy-party-group",
   "description": "",
   "version": "0.0.0",
   "author": "",
@@ -13,8 +13,8 @@
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "0.8.8",
   "scripts": [],
-  "esmodules": ["module/xdy-module-template.js"],
-  "styles": ["styles/xdy-module-template.css"],
+  "esmodules": ["module/xdy-party-group.js"],
+  "styles": ["styles/xdy-party-group.css"],
   "packs": [],
   "dependencies": [],
   "languages": [

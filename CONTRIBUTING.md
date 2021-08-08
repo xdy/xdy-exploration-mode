@@ -10,7 +10,7 @@ You will be paid in none or more of:
 * Riches
 * Attribution in [CONTRIBUTORS.md](CONTRIBUTORS.md)
 
-## How to contribute to xdy-module-template
+## How to contribute to xdy-party-group
 
 Make an issue if you have ideas or have found bugs, or a pull request if you have code or documentation.
 

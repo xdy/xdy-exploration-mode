@@ -18,6 +18,6 @@ plugins:
   - - "@semantic-release/github"
     - assets:
         - dist/module.json
-        - dist/xdy-module-template.zip
+        - dist/xdy-party-group.zip
 preset: angular
-branches: [ '+([0-9])?(.{+([0-9]),x}).x', 'master', { name: 'foundry-0.81', prerelease: true } ]
+branches: [ '+([0-9])?(.{+([0-9]),x}).x', 'main' ]

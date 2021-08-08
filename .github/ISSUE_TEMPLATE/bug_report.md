@@ -7,7 +7,7 @@ assignees: ''
 
 **Before you create the bug report**
 
-* Have you checked that this issue hasn't already been reported on https://github.com/xdy/xdy-module-template/issues?
+* Have you checked that this issue hasn't already been reported on https://github.com/xdy/xdy-party-group/issues?
 * Have you tried with all Foundry modules disabled?
 * Have you tried to update your browser? (Do note that Safari is not supported).
 
