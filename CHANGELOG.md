@@ -1,3 +1,10 @@
+## [0.0.4](https://github.com/xdy/xdy-exploration-mode/compare/v0.0.3...v0.0.4) (2021-08-09)
+
+
+### Bug Fixes
+
+* Better hotkey handling ([795de07](https://github.com/xdy/xdy-exploration-mode/commit/795de07e62522ef5def9558c28b09adc497d936c))
+
 ## [0.0.3](https://github.com/xdy/xdy-exploration-mode/compare/v0.0.2...v0.0.3) (2021-08-09)
 
 
