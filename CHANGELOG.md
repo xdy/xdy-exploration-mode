@@ -1,3 +1,10 @@
+## [0.0.3](https://github.com/xdy/xdy-exploration-mode/compare/v0.0.2...v0.0.3) (2021-08-09)
+
+
+### Bug Fixes
+
+* More module.json and .release.sh fixes ([6f7c28d](https://github.com/xdy/xdy-exploration-mode/commit/6f7c28d909fe1ebfcdbcdb9808653d08566b4c42))
+
 ## [0.0.2](https://github.com/xdy/xdy-exploration-mode/compare/v0.0.1...v0.0.2) (2021-08-09)
 
 
