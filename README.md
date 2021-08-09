@@ -7,7 +7,7 @@ Add your description here.
 
 ## Installation
 
-Install by either searching for xdy-exploration-mode in [FoundryVTT's](https://foundryvtt.com/) Module tab and clicking
+Install by either searching for xdy-exploration-mode in [FoundryVTT's](https://foundryvtt.com/) 'Add-on Modules' tab and clicking
 Install or by clicking the 'Install Module' button in that tab and entering the following as the Manifest
 URL: https://github.com/xdy/xdy-exploration-mode/releases/latest/download/module.json
 
