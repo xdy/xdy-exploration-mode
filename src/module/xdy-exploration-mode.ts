@@ -134,12 +134,10 @@ Hooks.once('ready', async () => {
   }
 
   Hotkeys.registerShortcut({
-    name: 'xdy-exploration-mode.place-token', // <- Must be unique
+    name: 'xdy-exploration-mode.place-xdy-exploration-mode-token', // <- Must be unique
     label: 'Place exploration-mode group token',
-    get: (): KeyMap => <KeyMap>game.settings.get('xdy-exploration-mode', 'place-token'),
-    set: async (value: KeyMap) => await game.settings.set('xdy-exploration-mode', 'place-token', value),
     default: () => {
-      return { key: Hotkeys.keys.KeyE, alt: false, ctrl: false, shift: false };
+      return { key: Hotkeys.keys.KeyE, alt: true, ctrl: true, shift: true };
     },
     onKeyDown: async () => {
       const currentScene = game.scenes?.current;
