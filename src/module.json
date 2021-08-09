@@ -1,13 +1,21 @@
 {
   "name": "xdy-exploration-mode",
   "title": "xdy-exploration-mode",
-  "description": "",
-  "version": "1.0.0",
-  "author": "",
+  "url": "https://github.com/xdy/xdy-exploration-mode/",
+  "manifest": "https://github.com/xdy/xdy-exploration-mode/releases/latest/download/module.json",
+  "readme": "https://raw.githubusercontent.com/xdy/xdy-exploration-mode/main/README.md",
+  "download": "https://github.com/xdy/xdy-exploration-mode/releases/latest/download/xdy-exploration-mode.zip",
+  "changelog": "https://github.com/xdy/xdy-exploration-mode/releases/latest/download/CHANGELOG.md",
+  "license": "",
+  "version": "0.0.1",
+  "author": "Jonas Karlsson (xdy)",
   "authors": [
     {
-      "name": "",
-      "email": ""
+      "name": "Jonas Karlsson",
+      "url": "https://gnu.xdy.se/home",
+      "discord": "xdy#3735",
+      "twitter": "@xdy",
+      "reddit": "u/xdyxdy"
     }
   ],
   "minimumCoreVersion": "0.8.8",
@@ -25,13 +33,7 @@
     }
   ],
   "socket": false,
-  "url": "",
-  "manifest": "",
-  "download": "https://host/path/to/0.0.0.zip",
-  "license": "",
-  "readme": "",
   "bugs": "",
-  "changelog": "",
   "system": [],
   "library": false
 }

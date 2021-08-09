@@ -1,9 +1,9 @@
 {
   "private": true,
   "name": "xdy-exploration-mode",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "license": "",
+  "license": "MIT",
   "homepage": "",
   "repository": {
     "type": "git",
