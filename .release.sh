@@ -8,5 +8,5 @@ sed -i -e 's|\(.*"version"\): "\(.*\)",.*|\1: '"\"$1\",|" src/module.json &&
   sed -i -e 's|\(.*"version"\): "\(.*\)",.*|\1: '"\"$1\",|" package.json &&
   npm install &&
   cd dist || exit &&
-  zip -r twodsix.zip ./* &&
+  zip -r xdy-exploration-mode.zip ./* &&
   cd ..
