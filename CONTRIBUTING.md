@@ -10,7 +10,7 @@ You will be paid in none or more of:
 * Riches
 * Attribution in [CONTRIBUTORS.md](CONTRIBUTORS.md)
 
-## How to contribute to xdy-party-group
+## How to contribute to xdy-exploration-mode
 
 Make an issue if you have ideas or have found bugs, or a pull request if you have code or documentation.
 
@@ -49,11 +49,11 @@ Or, if you prefer to do it as a separate module, make sure to mention it on the 
       ```
 1. Symlink dist directory to your Foundry data directory. 1. Mac/unix example:
     ```
-    ln -s /Users/xdy/Projects/FoundryVTT/xdy-party-group/dist "/Users/xdy/Library/Application Support/FoundryVTT/Data/xdy-party-group"
+    ln -s /Users/xdy/Projects/FoundryVTT/xdy-exploration-mode/dist "/Users/xdy/Library/Application Support/FoundryVTT/Data/xdy-exploration-mode"
     ```
 1. Windows example (add /h to mklink to get a hard link rather than a soft link):
     ```
-    mklink /d C:\Users\jk\AppData\Local\FoundryVTT\Data\modules\xdy-party-group C:\Users\jk\foundryvtt\xdy-party-group\dist
+    mklink /d C:\Users\jk\AppData\Local\FoundryVTT\Data\modules\xdy-exploration-mode C:\Users\jk\foundryvtt\xdy-exploration-mode\dist
     ```
 1. Do the following each time you have updated your fork and want to test your code:
 1. Builds the prerequisites

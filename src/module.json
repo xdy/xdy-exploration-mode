@@ -1,6 +1,6 @@
 {
-  "name": "xdy-party-group",
-  "title": "xdy-party-group",
+  "name": "xdy-exploration-mode",
+  "title": "xdy-exploration-mode",
   "description": "",
   "version": "0.0.0",
   "author": "",
@@ -13,10 +13,10 @@
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "0.8.8",
   "scripts": [],
-  "esmodules": ["module/xdy-party-group.js"],
-  "styles": ["styles/xdy-party-group.css"],
+  "esmodules": ["module/xdy-exploration-mode.js"],
+  "styles": ["styles/xdy-exploration-mode.css"],
   "packs": [],
-  "dependencies": [],
+  "dependencies": [{ "name": "lib-df-hotkeys" }],
   "languages": [
     {
       "lang": "en",

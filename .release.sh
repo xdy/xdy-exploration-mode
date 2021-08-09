@@ -1,4 +1,4 @@
-SEARCH_PATTERN='(\s\"(manifest|download)\"\: \"https:\/\/github.com\/xdy\/xdy-party-group\/releases\/).*(\/(module.json|xdy-party-group.zip)\",)'
+SEARCH_PATTERN='(\s\"(manifest|download)\"\: \"https:\/\/github.com\/xdy\/xdy-exploration-mode\/releases\/).*(\/(module.json|xdy-exploration-mode.zip)\",)'
 DEVELOPMENT_REPLACE="\1download/v$1\3"
 MAIN_REPLACE="\1latest/download\3"
 

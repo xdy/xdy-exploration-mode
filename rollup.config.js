@@ -2,7 +2,7 @@ const { nodeResolve } = require('@rollup/plugin-node-resolve');
 const esbuild = require('rollup-plugin-esbuild');
 
 module.exports = {
-  input: 'src/module/xdy-party-group.ts',
+  input: 'src/module/xdy-exploration-mode.ts',
   output: {
     dir: 'dist/module',
     format: 'es',

@@ -18,6 +18,6 @@ plugins:
   - - "@semantic-release/github"
     - assets:
         - dist/module.json
-        - dist/xdy-party-group.zip
+        - dist/xdy-exploration-mode.zip
 preset: angular
 branches: [ '+([0-9])?(.{+([0-9]),x}).x', 'main' ]
