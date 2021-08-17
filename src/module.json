@@ -25,7 +25,7 @@
   "esmodules": ["module/xdy-exploration-mode.js"],
   "styles": ["styles/xdy-exploration-mode.css"],
   "packs": [],
-  "dependencies": [{ "name": "lib-df-hotkeys" }],
+  "dependencies": [{ "name": "lib-df-hotkeys", "name": "fuzzy-foundry"  }],
   "languages": [
     {
       "lang": "en",
