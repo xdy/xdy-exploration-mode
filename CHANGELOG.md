@@ -1,3 +1,10 @@
+## [0.0.5](https://github.com/xdy/xdy-exploration-mode/compare/v0.0.4...v0.0.5) (2021-08-17)
+
+
+### Bug Fixes
+
+* Pointless change, just testing dependencies ([4f6ba26](https://github.com/xdy/xdy-exploration-mode/commit/4f6ba26146f559e379d847d70f57d3de5fb9ebdd))
+
 ## [0.0.4](https://github.com/xdy/xdy-exploration-mode/compare/v0.0.3...v0.0.4) (2021-08-09)
 
 
