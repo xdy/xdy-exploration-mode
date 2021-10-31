@@ -1,3 +1,5 @@
+Not working on this one, system shared vision pretty much made it unneccessary.
+
 # xdy-exploration-mode
 
 <img title="Minimum foundry version" src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/xdy/xdy-exploration-mode/main/src/module.json&label=Minimum%20Foundry%20version&query=minimumCoreVersion&style=flat-square&color=important"> <img title="Maximum foundry version" src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/xdy/xdy-exploration-mode/main/src/module.json&label=Maximum%20Foundry%20version&query=compatibleCoreVersion&style=flat-square&color=important"> <img title="xdy-exploration-mode version" src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/xdy/xdy-exploration-mode/main/src/module.json&label=xdy-exploration-mode%20version&query=version&style=flat-square&color=success">
